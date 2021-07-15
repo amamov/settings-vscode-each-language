@@ -1,0 +1,11 @@
+{
+  "name": "vscode-code-playground",
+  "version": "1.0.0",
+  "description": "When you want to code simple, do it in vscode",
+  "author": "Yoon - Sang Seok",
+  "scripts": {
+    "js": "cd javascript && npm run start:dev",
+    "ts": "cd typescript && npm run start:dev",
+    "py": "cd python && python main.py"
+  }
+}
