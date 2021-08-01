@@ -1,12 +1,16 @@
-# VSCODE PLAYGROUND
+# Settings VSCode for each language
 
-## When you want to code simple, do it in vscode!
+## When you want to code simple, do it in VSCode
 
-- `Typescript`, `Python`, `C++`, `Java`, `Javascript`
+- `Typescript`
+- `Python`
+- `C++`
+- `Java`
+- `Javascript`
 
 ### requirements
 
-> Node, npm, python, g++, jdk must be installed.
+> node.js, npm, python, g++, jdk must be installed.
 
 ### getting start
 
