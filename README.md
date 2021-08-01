@@ -2,11 +2,11 @@
 
 ## When you want to code simple, do it in vscode!
 
-- `C++`, `Python`, `Typescript`, `Javascript`
+- `Typescript`, `Python`, `C++`, `Java`, `Javascript`
 
 ### requirements
 
-> Node, npm, python, g++ must be installed.
+> Node, npm, python, g++, jdk must be installed.
 
 ### getting start
 

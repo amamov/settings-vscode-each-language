@@ -1,11 +1,5 @@
-// @ts-check
-const dotenv = require('dotenv')
+function init() {
+  console.log('hello world!')
+}
 
-dotenv.config({ path: `${__dirname}/../.env` })
-
-const helloWorld = `${process.env.hello || 'hello!'} world`
-
-/* eslint-disable-next-line no-console */
-console.log(helloWorld)
-
-// const result = Math.cos(helloWorld) // warning
+init()

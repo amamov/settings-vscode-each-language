@@ -5,9 +5,17 @@
     "editor.wordWrap": "on",
     "editor.quickSuggestions": false
   },
+  "[java]": {
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "java.project.sourcePaths": ["java/src"],
+  "java.project.outputPath": "java/bin",
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
+  "python.languageServer": "Pylance",
+  "python.analysis.typeCheckingMode": "basic",
   "python.linting.pylintEnabled": false,
   "python.linting.flake8Enabled": true,
   "python.linting.enabled": true,

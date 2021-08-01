@@ -1,1 +1,5 @@
-console.log('hello world!')
+function init() {
+  console.log('Hello, Typescript')
+}
+
+init()

@@ -1,28 +1,35 @@
 {
-	"version": "0.2.0",
-	"configurations": [
-		{
-			"name": "Launch",
-			"type": "lldb",
-			"request": "launch",
-			"program": "${fileDirname}/${fileBasenameNoExtension}.out",
-			"args": [],
-			"preLaunchTask": "C/C++: g++ build active file",
-			"stdio": [null, null, null],
-			"terminal": "integrated"
-		},
-		{
-			"name": "g++ - Build and debug active file",
-			"type": "cppdbg",
-			"request": "launch",
-			"program": "${fileDirname}/${fileBasenameNoExtension}.out",
-			"args": [],
-			"stopAtEntry": true,
-			"cwd": "${workspaceFolder}",
-			"environment": [],
-			"externalConsole": true,
-			"MIMode": "lldb",
-			"preLaunchTask": "C/C++: g++ build active file"
-		}
-	]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "playground_879b21b2"
+    },
+    {
+      "name": "Launch",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.out",
+      "args": [],
+      "preLaunchTask": "C/C++: g++ build active file",
+      "stdio": [null, null, null],
+      "terminal": "integrated"
+    },
+    {
+      "name": "g++ - Build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.out",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: g++ build active file"
+    }
+  ]
 }
