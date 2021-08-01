@@ -2,11 +2,11 @@
 
 ## When you want to code simple, do it in VSCode
 
-- `Typescript`
-- `Python`
 - `C++`
 - `Java`
-- `Javascript`
+- `Python`
+- `Typescript based in Node`
+- `Javascript based in Node`
 
 ### requirements
 
